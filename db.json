@@ -1,0 +1,22 @@
+{
+  "bookings": [
+    {
+      "id": 481,
+      "name": "Franciscah Orwa",
+      "email": "francieorwa@gmail.com",
+      "phone": "0722162215",
+      "date": "2022-12-16",
+      "time": "09:00",
+      "message": "yiu"
+    },
+    {
+      "id": 279,
+      "name": "Kojiro Red Ramen",
+      "email": "francieorwa@gmail.com",
+      "phone": "0722162215",
+      "date": "2022-12-17",
+      "time": "09:00",
+      "message": "hi"
+    }
+  ]
+}
