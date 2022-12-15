@@ -20,6 +20,22 @@
             <li><a  href="#">Book</a></li>
         </ul>
     </nav>
+    <!--About us section-->
+    <div id="about">
+        <h6>YOUR BEST LOCAL NAIL SPA</h6>
+        <h1>FALL IN LOVE WITH </h1>
+        <h1>ART OF NAILS</h1>
+        <p>We are a team of young,passionate,talented individuals</p>
+        <p>who are dedicated to do the best nails while giving our clients the most amaizing experience.</p>
+        <p>We keep up with the latest nail trends.When you walk through our doors.</p>
+        <p>Every moment of our visit will be relaxed,enjoyable and worthwhile.</p>
+        <p>We understand that tastes and style are individual.</p>
+        <p>We try our best to meet each and every clients expectation.</p>
+        <p>Rest assured that your whatever your STYLE & TASTE we will NAIL IT!.</p>
+            
+            </p>
+
+    </div>
     <!--Book form section-->
     <div class="container">
         <form id="form" >
@@ -32,9 +48,19 @@
             <label for="time">Time:</label>
             <input type="time" id="time" name="time" min="07:00" max="21:00" required>
             <textarea id="message" rows="4" placeholder="How Can We Help You"></textarea>
-            <button type="submit">Book</button>
-            
+            <button type="submit">Book</button>    
         </form>
+    </div>
+    <!--view client booking-->
+    <div class="details">
+        <form id="detail" onsubmit="viewBooking(event)">
+            <h3>VIEW BOOKING</h3>
+            <input type="email" id="view" placeholder="Email id" required>
+            <button type="submit">View</button>
+        </form>
+    </div>
+    <div id="display">
+
     </div>
     <!--Footer section-->
     <footer>
