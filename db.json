@@ -1,13 +1,40 @@
 {
   "bookings": [
     {
-      "id": 139,
-      "name": "Kojiro Red Ramen",
+      "id": 472,
+      "name": "Lucy Njambi",
       "email": "lulumuhoro@gmail.com",
-      "phone": "0722162215",
-      "date": "2022-12-01",
-      "time": "18:00",
-      "message": "hi"
+      "phone": "44657676",
+      "date": "2022-12-23",
+      "time": "12:00",
+      "message": "hi i would like to book"
+    },
+    {
+      "id": 324,
+      "name": "Kojiro Red Ramen",
+      "email": "francisca.orwa@student.moringaschool.com",
+      "phone": "98779887",
+      "date": "2022-12-22",
+      "time": "09:00",
+      "message": "fgyftgfct"
+    },
+    {
+      "id": 900,
+      "name": "Franciscah Orwa",
+      "email": "franclifforwa@gmail.com",
+      "phone": "7676576576",
+      "date": "2022-12-30",
+      "time": "07:00",
+      "message": "cgcgchnbvhfx "
+    },
+    {
+      "id": 668,
+      "name": "Shuang",
+      "email": "francisca.orwa@student.moringaschool.com",
+      "phone": "44657676",
+      "date": "2022-12-08",
+      "time": "12:00",
+      "message": "hhchvhv"
     }
   ]
 }
