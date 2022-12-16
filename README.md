@@ -12,7 +12,7 @@ Run this command to get the backend started:
 
  Test your server by visiting this route in the browser:
 
-    - http://localhost:3000/booking
+    - http://localhost:3000/bookings
 
  Then, open the **index.html** file on your browser to run the application.
 
