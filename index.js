@@ -102,5 +102,5 @@ function deleteBooking(id){
         }
     }).then((res)=>res.json())
         .then((data)=>console.log(data))
-        reset(' ')
+        
 }
