@@ -6,7 +6,7 @@
 }
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image:url(images/nail\ pg5.png)
+    background-image:url(images/the\ pic.webp)
 }
 nav{
     height:80px;
@@ -55,7 +55,7 @@ nav #icon{
 #about{
     border: 2px solid #FFFFFF00;
     text-align: center;
-    color:black;
+    
 }
 h6{
     font-size: 20px;
@@ -67,7 +67,7 @@ h6{
 h1{
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:#E75480;
+    color:#E75480
     
 }
 .paragraph{
