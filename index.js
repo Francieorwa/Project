@@ -1,4 +1,9 @@
 
+document.addEventListener("DOMContentLoaded",(e)=>{
+    console.log('DOM fully loaded and parsed')
+
+})
+
 function getRandom(min,max){
     return Math.round(Math.random() *(max-min) + min);
 }
@@ -59,28 +64,6 @@ formEl.addEventListener('submit',function(e){
     sendEmail (); formEl.reset (); return false;
 })
 
-//get data from db.json//
-
-//const api_Url='http://localhost:3000/bookings?email=provided_email'
-//async function getBookings(){
-   // const response=await fetch(api_Url);
-   // const data=await response.json();
-   // const{name,email,phone,date,time,message}=data;
-    // console.log(name,email,phone,date,time,message)
-
-   // document.getElementById('name').textContent=name;
-   // document.getElementById('email').textContent=email;
-   // document.getElementById('phone').textContent=phone;
-    //document.getElementById('date').textContent=date;
-    //document.getElementById('time').textContent=time;
-   // document.getElementById('message').textContent=message;
-     
-   //// console.log(data)
-
-  //  getBookings();
-//}
-
-
 function viewBooking(e){
     e.preventDefault();
     getBookings();
@@ -119,4 +102,5 @@ function deleteBooking(id){
         }
     }).then((res)=>res.json())
         .then((data)=>console.log(data))
+        reset(' ')
 }
